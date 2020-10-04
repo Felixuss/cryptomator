@@ -24,8 +24,8 @@
           <entry name="$MAVEN_REPOSITORY$/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar" />
         </processorPath>
         <module name="keychain" />
-        <module name="commons" />
         <module name="ui" />
+        <module name="commons" />
         <module name="launcher" />
       </profile>
     </annotationProcessing>
