@@ -15,15 +15,15 @@ imports the entire packaged it is also part of and therefor we have a strong coh
 ## PART 1.2 - CALL GRAPH
 ![callGraph](callGraph.png)
 ## PART 2 - DATA FLOW
-###run
+### run
 ![run](run.png)
-###attemptClientConnection
+### attemptClientConnection
 ![attemptClientConnection](attemptClientConnection.png)
-###findIndexOfLexicographicallyPreceeding
+### findIndexOfLexicographicallyPreceeding
 ![findIndexOfLexicographicallyPreceeding](findIndexOfLexicographicallyPreceeding.png)
-###loadKeychainEntriesIfNeeded
+### loadKeychainEntriesIfNeeded
 ![loadKeychainEntriesIfNeeded](loadKeychainEntriesIfNeeded.png)
-###loadPassphrase
+### loadPassphrase
 ![loadPassphrase](loadPassphrase.png)
-###provideUpgradeAppender
+### provideUpgradeAppender
 ![provideUpgradeAppender](provideUpgradeAppender.png)
