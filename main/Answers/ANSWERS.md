@@ -1,25 +1,29 @@
 
-## Software Construction - Assigment 1
+# Software Construction - Assigment 1
 
 - Dubach Rafael (18-755-140)
 - Hoffmann Felix (14-591-549)
 - Wäspi Raphael (18-918-938)
 
-### PART 1.1 - ARCHITECTURE
+## PART 1.1 - ARCHITECTURE
 ![architecture](architecture.jpg)
-We picked the Launcher, logging and org.cryptomator packages in this task to get an overall overview on cryptomator. Since those 3 packages contain exactly 10 classes it was the perfect fit for it. 
-### PART 1.2 - CALL GRAPH
+We picked launcher, logging, and org.cryptomator packages in this task to get 
+an overall overview on cryptomator. The main reason why we chose these packages 
+is because you start the program with the class Cryptomator in the package launcher and 
+since our 3 packages contain exactly 10 classes it was the perfect fit. Each class 
+imports the entire packaged it is also part of and therefor we have a strong cohesion. 
+## PART 1.2 - CALL GRAPH
 ![callGraph](callGraph.png)
-### PART 2 - DATA FLOW
-####run
+## PART 2 - DATA FLOW
+###run
 ![run](run.png)
-####attemptClientConnection
+###attemptClientConnection
 ![attemptClientConnection](attemptClientConnection.png)
-####findIndexOfLexicographicallyPreceeding
+###findIndexOfLexicographicallyPreceeding
 ![findIndexOfLexicographicallyPreceeding](findIndexOfLexicographicallyPreceeding.png)
-####loadKeychainEntriesIfNeeded
+###loadKeychainEntriesIfNeeded
 ![loadKeychainEntriesIfNeeded](loadKeychainEntriesIfNeeded.png)
-####loadPassphrase
+###loadPassphrase
 ![loadPassphrase](loadPassphrase.png)
-####provideUpgradeAppender
+###provideUpgradeAppender
 ![provideUpgradeAppender](provideUpgradeAppender.png)
